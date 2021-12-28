@@ -1,0 +1,48 @@
+.card_mine {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.card_mine img {
+    position: relative;
+    top: -30%;
+    width: 100%;
+}
+.card_mine .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #FFF;
+}
+.card_mine .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card_mine .overlay h4 {
+    font-weight: 300;
+    font-size: 40px;
+    margin: 20px;
+}
+.card_mine .overlay div span i {
+    color: #F7CD00;
+    margin: 2px;
+}
+.card_mine .overlay div span {
+    margin: 30px;
+}
+
+.card_mine .overlay div button {
+    background-color: transparent;
+    color: #FFF;
+    border: none;
+    padding: 15px 30px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
